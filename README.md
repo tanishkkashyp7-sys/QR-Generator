@@ -1,73 +1,109 @@
 # QR Code Generator
 
-A Python-based tool to generate customizable QR codes with colors, logos, and high error correction.
+A Python-based command-line tool to generate customizable QR codes with support for custom colors, logo embedding, and high error correction.
 
-## Features
+---
 
-- Generate QR codes from text or URLs
-- Customize foreground and background colors
-- Embed a logo in the center of the QR code
-- High error correction for better scan accuracy
-- Save QR codes as image files
+## ✨ Features
 
-## Requirements
+- Generate QR codes from text or URLs  
+- Customize foreground and background colors  
+- Embed a logo in the center of the QR code  
+- High error correction for better scan reliability  
+- Save QR codes as PNG image files  
 
-- Python 3.x
-- qrcode library
-- Pillow (PIL) library
+---
 
-## Installation
+## 🛠️ Requirements
 
-1. Clone or download the project files.
-2. Install the required dependencies:
+- Python 3.x  
+- `qrcode` library  
+- `Pillow (PIL)` library  
 
-   ```
-   pip install -r requirements.txt
-   ```
+---
 
-## Usage
+## 📂 Project Structure
 
-Run the script from the command line with the following syntax:
 
-```
-python qr_generator.py "Your text or URL here" [options]
-```
+---
 
-### Options
+## 📦 Installation (Beginner-Friendly)
 
-- `-o, --output`: Output file name (default: qr_code.png)
-- `-fg, --fg_color`: Foreground color (default: black)
-- `-bg, --bg_color`: Background color (default: white)
-- `-l, --logo`: Path to logo image to embed in the center
+### Step 1 — Clone the repository
 
-### Examples
 
-1. Generate a basic QR code:
+### Step 2 — Install dependencies
 
-   ```
-   python qr_generator.py "https://www.example.com"
-   ```
+Option 1 (recommended):
 
-2. Generate a QR code with custom colors:
 
-   ```
-   python qr_generator.py "Hello World" -fg red -bg yellow
-   ```
+OR (if you have a requirements file):
 
-3. Generate a QR code with a logo:
 
-   ```
-   python qr_generator.py "https://www.example.com" -l logo.png -o custom_qr.png
-   ```
+---
 
-4. Full customization:
+## ▶️ Usage
 
-   ```
-   python qr_generator.py "Your message" -fg blue -bg white -l logo.png -o my_qr.png
-   ```
+Run the script from the command line using:
 
-## Notes
 
-- Supported color formats: color names (e.g., 'red', 'blue') or hex codes (e.g., '#FF0000')
-- Logo should be a square image for best results
-- High error correction allows for logo embedding without affecting scanability
+---
+
+## 🔧 Options
+
+| Option | Description |
+|--------|-------------|
+| `-o, --output` | Output file name (default: `qr_code.png`) |
+| `-fg, --fg_color` | Foreground color (default: `black`) |
+| `-bg, --bg_color` | Background color (default: `white`) |
+| `-l, --logo` | Path to logo image to embed in the center |
+
+---
+
+## 📌 Examples
+
+### 1️⃣ Basic QR Code
+
+
+### 2️⃣ Custom Colors
+
+
+### 3️⃣ QR Code with Logo
+
+
+### 4️⃣ Full Customization
+
+
+---
+
+## 📷 Screenshots (Optional — Add later)
+
+> You can add images like this in GitHub:
+
+
+Suggested screenshots to add:
+- Input command in terminal  
+- Generated QR code image  
+- QR code with logo  
+
+---
+
+## 📝 Notes
+
+- Supported color formats:  
+  - Color names (e.g., `red`, `blue`, `green`)  
+  - Hex codes (e.g., `#FF5733`)  
+- The logo should preferably be a **square image** for best appearance  
+- High error correction is used so that embedding a logo does not affect scanability  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source.
